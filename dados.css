@@ -1,0 +1,24 @@
+h1 {
+  font-size: x-large;
+    color: rgb(175, 41, 41);
+    
+}
+
+body {
+    background-color: rgb(216, 213, 213);
+}
+
+h2 {
+    color: rgb(175, 41, 41);
+}
+button {
+    color:rgb(216, 213, 213);
+    background-color:rgb(175, 41, 41);
+    border: solid rgb(175, 41, 41) 2px;
+}
+.botao2 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+}

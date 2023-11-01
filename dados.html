@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dados.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preenchimento de Dados</title>
+</head>
+<body>
+    <header>
+    <h1>Preencha seus dados listados abaixo:</h1>
+</header>
+<main>
+    <form method="get">
+        <label for="nome">Nome:</label><br>
+        <input type="text" name="nome" id="nome" required>
+    <br><br>
+    <label for="email">E-mail:</label><br>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="senha">Senha:</label><br>
+    <input type="password" name="senha" id="senha" required>
+    <br><br>
+    <label for="whatsapp">Whatsapp:</label><br>
+    <input type="number" name="whatsapp" id="whatsapp" required>
+    <br><br>
+    <label>Gênero:</label >
+    <br>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino" value="M" required>
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" id="feminino" value="F" required>
+    <label for="outro">Outro</label>
+    <input type="radio" name="genero" id="outro" value="outro" required>
+    <br><br>
+    <label for="datadenascimento">Data de nascimento:</label>
+    <input type="date" name="datadenascimento" id="datadenascimento" required>
+    <br><br>
+    <label for="situacao">Situação atual:</label>
+    <select name="situacao" id="situacao">
+    <option value="" disabled selected >Selecione uma das opções abaixo</option>
+    <option value="justa causa">Justa Causa</option>
+    <option value="previdencia">Previdência Social</option>
+    <option value="trabalhista">Trabalhista</option>
+    <option value="civil">Cívil</option>
+    <option value="criminal">Criminal</option>
+    </select>
+    <br><br>
+    <label for="sobre">Se a sua situação não está nos itens listados acima, por favor, <br> conte-nos seu caso escrevendo abaixo:</label><br>
+<textarea name="sobre" id="sobre" cols="30" rows="6" placeholder="Fale sobre você..."></textarea> <br>
+
+    <label for="notificar">Deseja receber notificações da nossa empresa em seu e-mail?</label>
+    <input type="checkbox" name="notificar" id="notificar">
+        <br><br>
+        <button type="submit">Enviar</button>
+        </p>
+    </div>
+</form>
+</section>
+<section> 
+    <h4>O que achou do nosso atendimento? Acha que nós podemos melhorar em algo?</h4>   
+<form method="get" >
+    <label>Você gostou do nosso atendimento?</label>  
+    <br>
+    <label for="aprovacao">Sim</label> 
+<input type="radio" name="atendimento" id="aprovacao">
+<label for="rejeicao">Não</label>
+<input type="radio" name="atendimento" id="rejeicao">
+<br><br>
+<label for="rejeicao">Escreva abaixo como foi sua experiência no nosso site!</label>
+<br>
+<textarea name="experiencia" id="rejeicao" cols="40" rows="6" placeholder="Escreva aqui.."></textarea>
+<br><br>
+<button class="botao2" type="submit">Enviar</button>
+</form>
+</section>
+</main>
+</body>
+</html>
